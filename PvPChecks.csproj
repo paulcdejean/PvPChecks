@@ -33,12 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="OTAPI">
-      <HintPath>..\TShock References\OTAPI.dll</HintPath>
+      <HintPath>lib\OTAPI.dll</HintPath>
     </Reference>
     <Reference Include="TerrariaServer">
-      <HintPath>..\TShock References\TerrariaServer.exe</HintPath>
+      <HintPath>lib\TerrariaServer.exe</HintPath>
     </Reference>
     <Reference Include="TShockAPI">
       <HintPath>lib\TShockAPI.dll</HintPath>
