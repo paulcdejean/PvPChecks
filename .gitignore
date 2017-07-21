@@ -1,2 +1,4 @@
 obj/
 .vs/
+/bin/debug/PvPChecks.dll
+/bin/debug/PvPChecks.pdb
